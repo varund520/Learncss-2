@@ -1,0 +1,92 @@
+body{
+    background-image: url('./cover.jpg');
+    margin: 0px;
+    height: 110vh;
+}
+
+header{
+    color: white;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.logobox{
+    display: inline-block;    
+    width: 30%;
+    font-size: 20px;
+    color: tomato;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.navbox{    
+    width: 50%;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.navbox > a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 30px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbox > a:hover{
+    color: tomato;
+    transition: 0.5s;
+    border-bottom: 1px solid tomato;
+}
+
+.navbox a:first-child{
+    color: tomato;
+    border-bottom: 1px solid tomato;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.firstbox{
+    width: 600px;
+}
+
+.firstbox > h2{
+    font-size: 50px;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 10%;
+}
+
+.firstbox > p{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    top: 65px;
+    left: 11%;
+    font-family: 'Caveat', cursive;
+}
+
+.firstbox button{
+    position: relative;
+    top: 65px;
+    left: 11%;
+    padding: 10px;
+    width: 180px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.firstbox button:hover{
+    background-color: rgb(243, 56, 23);
+    transition: 0.5s;
+}
